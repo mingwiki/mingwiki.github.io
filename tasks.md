@@ -1,0 +1,17 @@
+- [ ] chrome developer tools
+- [ ] curl 命令整理
+- [ ] 响应与请求
+- [ ] tcp/ip
+- [ ] a simple nodejs server
+- [ ] express
+- [ ] vue
+- [ ] vite
+- [ ] elementUI
+- [ ] bootstap4
+- [ ] Scss Sass
+- [ ] 写简历 做一个建立网页
+- [ ] dribbble leetcode to homepage
+- [ ] naizi.fun/zed.ink full-powered
+- [ ] css tricks guides flexbox jquery
+- [ ] emmet
+- [ ] 
