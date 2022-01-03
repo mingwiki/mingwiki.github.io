@@ -14,4 +14,13 @@
 - [ ] naizi.fun/zed.ink full-powered
 - [ ] css tricks guides flexbox jquery
 - [ ] emmet
-- [ ] 
+- [ ] markdown to html
+- [ ] 哈希与计数排序
+- [ ] 通排序与基数排序
+- [ ] 冒泡排序和快排
+- [ ] 链表和树
+- [ ] 堆排序
+- [ ] 鼠标监听
+- [ ] localstorage
+- [ ] cookie
+- [ ] onerror
