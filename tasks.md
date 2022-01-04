@@ -24,3 +24,7 @@
 - [ ] localstorage
 - [ ] cookie
 - [ ] onerror
+- [ ] HAproxy
+- [ ] kms
+- [ ] frp
+- [ ] 
