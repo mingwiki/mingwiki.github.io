@@ -1,3 +1,8 @@
+---
+layout: post
+title: CSS position
+date: 2022-01-04 21:25 +0800
+---
 # CSS position
 
 `fixed` 和 `absolute`属性会被移除文档流，其他的不会。
