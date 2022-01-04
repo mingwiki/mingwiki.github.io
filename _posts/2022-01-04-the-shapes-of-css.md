@@ -3,8 +3,6 @@ layout: post
 title: The Shapes of CSS
 date: 2022-01-04 21:25 +0800
 ---
-# The Shapes of CSS
-
 Square Shape
 ```css
 #square {
