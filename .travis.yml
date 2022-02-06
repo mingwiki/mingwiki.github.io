@@ -6,9 +6,8 @@ branches:
     - master # build master branch only
 before_install: 
   - mkdir themes
-  - git clone https://github.com/zthxxx/hexo-theme-Wikitten.git themes/Wikitten
-  - npm un hexo-renderer-marked --save
-  - npm i hexo-rendere-pandoc --save
+  - git clone https://github.com/iissnan/hexo-theme-next themes/next
+
 script:
   - hexo g # generate static files
 deploy:
