@@ -25,6 +25,3 @@ notifications:
       - mingwiki@gmail.com
     on_success: change
     on_failure: always
-env:
-    global:
-        - GH_REF: github.com/mingwiki/coding-journal.git #设置GH_REF
