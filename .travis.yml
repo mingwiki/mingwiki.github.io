@@ -5,13 +5,18 @@ branches:
   only:
     - master # build master branch only
 before_install: 
-  - npm install -g hexo-cli
   - mkdir themes
   - git clone https://github.com/zthxxx/hexo-theme-Wikitten.git themes/Wikitten
-  - npm un hexo-renderer-marked --save
-  - npm i hexo-rendere-pandoc --save
 script:
   - hexo g # generate static files
+after_script:
+    - cd ./public
+    - git init
+    - git config user.name "付明" # 修改name
+    - git config user.email "mingwiki@gmail.com" # 修改email
+    - git add .
+    - git commit -m "Travis CI Auto Builder"
+    - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master # GH_TOKEN是在Travis中配置token的名称
 deploy:
   provider: pages
   cleanup: false
@@ -26,3 +31,6 @@ notifications:
       - mingwiki@gmail.com
     on_success: change
     on_failure: always
+env:
+    global:
+        - GH_REF: github.com/mingwiki/coding-journal.git #设置GH_REF
