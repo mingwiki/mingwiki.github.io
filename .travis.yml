@@ -1,18 +1,22 @@
-sudo: false
 language: node_js
-node_js:
-  - 10 # use nodejs v10 LTS
+node_js: stable
 cache: npm
 branches:
   only:
     - master # build master branch only
 script:
-  - hexo generate # generate static files
+  - hexo g -d # generate static files
 deploy:
   provider: pages
-  skip-cleanup: true
+  cleanup: false
   github-token: $GH_TOKEN
   keep-history: true
   on:
     branch: master
   local-dir: public
+notifications:
+  email:
+    recipients:
+      - mingwiki@gmail.com
+    on_success: change
+    on_failure: always
