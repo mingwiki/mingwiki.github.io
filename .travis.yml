@@ -5,6 +5,7 @@ branches:
   only:
     - master # build master branch only
 before_install: 
+  - npm install -g hexo-cli
   - mkdir themes
   - git clone https://github.com/iissnan/hexo-theme-next themes/next
 
