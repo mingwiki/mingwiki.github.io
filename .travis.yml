@@ -11,6 +11,7 @@ script:
   - hexo g # generate static files
 after_script:
     - cd ./public
+    - echo "journal.zed.ink" > CNAME
     - git init
     - git config user.name "付明" # 修改name
     - git config user.email "mingwiki@gmail.com" # 修改email
