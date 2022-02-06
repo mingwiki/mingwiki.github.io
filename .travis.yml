@@ -20,10 +20,10 @@ after_script:
 deploy:
   provider: pages
   cleanup: false
-  github-token: $GH_TOKEN
   keep-history: true
   edge: true
   github-url: journal.zed.ink
+  github-token: $GH_TOKEN
   on:
     branch: master
   local-dir: public
