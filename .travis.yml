@@ -23,6 +23,7 @@ deploy:
   github-token: $GH_TOKEN
   keep-history: true
   edge: true
+  github-url: journal.zed.ink
   on:
     branch: master
   local-dir: public
