@@ -28,7 +28,7 @@ customize:
     favicon: css/images/favicon.ico # path to favicon
     default_index_file: index.md # if this, it will display at site index instead of default index page
     social_links:
-        github: https://github.com/mingwiki/mingwiki.github.io
+        github: https://github.com/mingwiki
         stack-overflow: https://stackoverflow.com/users/17778533/mingwiki
         codepen: https://codepen.io/mingwiki
         rss: /atom.xml
