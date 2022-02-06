@@ -7,8 +7,9 @@ branches:
 before_install: 
   - npm install -g hexo-cli
   - mkdir themes
-  - git clone https://github.com/iissnan/hexo-theme-next themes/next
-
+  - git clone https://github.com/zthxxx/hexo-theme-Wikitten.git themes/Wikitten
+  - npm un hexo-renderer-marked --save
+  - npm i hexo-rendere-pandoc --save
 script:
   - hexo g # generate static files
 deploy:
