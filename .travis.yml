@@ -22,6 +22,7 @@ deploy:
   cleanup: false
   github-token: $GH_TOKEN
   keep-history: true
+  edge: true
   on:
     branch: master
   local-dir: public
