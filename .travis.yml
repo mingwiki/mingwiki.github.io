@@ -22,7 +22,6 @@ deploy:
   cleanup: false
   keep-history: true
   edge: true
-  github-url: journal.zed.ink
   github-token: $GH_TOKEN
   on:
     branch: master
