@@ -4,8 +4,13 @@ cache: npm
 branches:
   only:
     - master # build master branch only
+before_install: 
+  - mkdir themes
+  - git clone https://github.com/zthxxx/hexo-theme-Wikitten.git themes/Wikitten
+  - npm un hexo-renderer-marked --save
+  - npm i hexo-renderer-krammed
 script:
-  - hexo g -d # generate static files
+  - hexo g # generate static files
 deploy:
   provider: pages
   cleanup: false
