@@ -8,7 +8,7 @@ before_install:
   - mkdir themes
   - git clone https://github.com/zthxxx/hexo-theme-Wikitten.git themes/Wikitten
   - npm un hexo-renderer-marked --save
-  - npm i hexo-renderer-krammed
+  - npm i hexo-rendere-pandoc --save
 script:
   - hexo g # generate static files
 deploy:
