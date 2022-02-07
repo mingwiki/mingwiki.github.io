@@ -1,5 +1,5 @@
 # Header
-navname: Bentham's Blog
+navname: Coding Journal
 
 # navigatior items
 nav:
@@ -9,14 +9,14 @@ nav:
   About: /about
 
 # favicon
-favicon: /favicon.ico
+favicon: images/wiki.ico
 
 # Profile
-nickname: Jeremy Bentham
+nickname: 付明
 
 ### this variable is MarkDown form.
-description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
-avatar: /image/avatar.jpeg
+description: 程序员(Javascript/Vue/NodeJS)
+avatar: images/wiki.png
 
 # main menu navigation
 ## links key words should not be changed.
@@ -33,26 +33,26 @@ links:
   # Gallery:
   # RSS:
   # AliPay:
-  ZhiHu: https://www.zhihu.com/people/sirice
+  # ZhiHu: https://www.zhihu.com/people/sirice
   # LinkedIn:
   # FaceBook:
   # Twitter:
   # Skype:
   # CodeSandBox:
-  # CodePen:
+  CodePen: https://codepen.io/mingwiki
   # Sketch:
   # Gitlab:
   # Dribbble:
-  Instagram:
-  Reddit:
+  # Instagram:
+  # Reddit:
   # YouTube:
   # QQ:
   # Weibo:
-  # WeChat:
-  Github: https://github.com/Siricee
+  WeChat: 13823330697
+  Github: https://github.com/mingwiki
 
 # how links show: you have 2 choice--text or icon.
-links_text_enable: false
+links_text_enable: true
 links_icon_enable: true
 
 # Post page
