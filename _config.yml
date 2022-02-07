@@ -110,29 +110,30 @@ math:
   engine: mathjax
 
 ## Markdown
-## https://github.com/hexojs/hexo-renderer-markdown-it
-markdown:
-  preset: 'default'
-  render:
-    html: true
-    xhtmlOut: false
-    langPrefix: 'language-'
-    breaks: true
-    linkify: true
-    typographer: true
-    quotes: '“”‘’'
-  enable_rules:
-  disable_rules:
-  plugins:
-  anchors:
-    level: 2
-    collisionSuffix: ''
-    permalink: false
-    permalinkClass: 'header-anchor'
-    permalinkSide: 'left'
-    permalinkSymbol: '¶'
-    case: 0
-    separator: '-'
+## https://github.com/hexojs/hexo-renderer-marked
+marked:
+  gfm: true
+  pedantic: false
+  breaks: true
+  smartLists: true
+  smartypants: true
+  quotes: '“”‘’'
+  modifyAnchors: 0
+  anchorAlias: false
+  autolink: true
+  mangle: true
+  sanitizeUrl: false
+  dompurify: false
+  headerIds: true
+  lazyload: false
+  prependRoot: true
+  postAsset: false
+  external_link:
+    enable: false
+    exclude: []
+    nofollow: false
+  disableNunjucks: false
+  descriptionLists: true
 ## Plugins: https://hexo.io/plugins/
 ### JsonContent
 jsonContent:
