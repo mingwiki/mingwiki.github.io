@@ -6,7 +6,7 @@ branches:
     - master # build master branch only
 before_install: 
   - mkdir themes
-  - git clone https://github.com/mingwiki/hexo-theme-Wikitten.git themes/Wikitten
+  - git clone https://github.com/mingwiki/hexo-theme-Chic.git Chic
 script:
   - hexo g # generate static files
 deploy:

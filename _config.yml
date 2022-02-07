@@ -4,12 +4,12 @@
 
 # Site
 title: Coding Journal
-subtitle: 'Day Day Up'
-description: 'Personal Blog'
+subtitle: "Day Day Up"
+description: "Personal Blog"
 keywords: blog, mingwiki, journal
-author: 付明 
+author: 付明
 language: zh-CN
-timezone: 'Asia/Shanghai'
+timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -37,7 +37,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
@@ -47,21 +47,21 @@ highlight:
   enable: true
   line_number: true
   auto_detect: true
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 2
   order_by: -date
 
@@ -81,7 +81,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -97,67 +97,83 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Wikitten
+theme: Chic
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: ""
 
-# Wikitten
-math:
-  enable: false
-  engine: mathjax
-
+# Modules
 ## Markdown
-## https://github.com/hexojs/hexo-renderer-marked
-marked:
-  gfm: true
-  pedantic: false
-  breaks: true
-  smartLists: true
-  smartypants: true
-  quotes: '“”‘’'
-  modifyAnchors: 0
-  anchorAlias: false
-  autolink: true
-  mangle: true
-  sanitizeUrl: false
-  dompurify: false
-  headerIds: true
-  lazyload: false
-  prependRoot: true
-  postAsset: false
-  external_link:
-    enable: false
-    exclude: []
-    nofollow: false
-  disableNunjucks: false
-  descriptionLists: true
-## Plugins: https://hexo.io/plugins/
-### JsonContent
-jsonContent:
-  meta: false
-  pages:
-    title: true
-    date: true
-    path: true
-    text: true
-  posts:
-    title: true
-    date: true
-    path: true
-    text: true
-    tags: true
-    categories: true
-  ignore:
-    - 404.html
-### Creat sitemap
+markdown:
+  preset: "default"
+  render:
+    html: true
+    xhtmlOut: false
+    langPrefix: "language-"
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: "“”‘’"
+  enable_rules:
+  disable_rules:
+  plugins:
+  anchors:
+    level: 2
+    collisionSuffix: ""
+    permalink: false
+    permalinkClass: "header-anchor"
+    permalinkSide: "left"
+    permalinkSymbol: "¶"
+    case: 0
+    separator: "-"
+
+# hexo-generator-feed
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
+# hexo-generator-search
+search:
+  path: search.xml
+  field: post
+  content: true
+  template:
+
+# hexo-generator-sitemap
 sitemap:
   path: sitemap.xml
+  template: 
+  rel: false
+  tags: true
+  categories: true
 
-### Adds nofollow attribute to all external links in your hexo blog posts automatically.
-nofollow:
-  enable: true
-  exclude:
-    - journal.zed.ink
+# hexo-generator-archive
+archive_generator:
+  enabled: true
+  per_page: 10
+  yearly: true
+  monthly: true
+  daily: false
+  order_by: -date
+
+# hexo-generator-tag
+tag_generator:
+  per_page: 10
+  order_by: -date
+
+# hexo-generator-category
+category_generator:
+  per_page: 10
+  order_by: -date
