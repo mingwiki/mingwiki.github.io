@@ -177,3 +177,13 @@ tag_generator:
 category_generator:
   per_page: 10
   order_by: -date
+
+# hexo-renderer-stylus
+stylus:
+  compress: false
+  sourcemaps:
+    comment: true
+    inline: true
+    sourceRoot: ''
+    basePath: .
+  plugins: 'nib'
