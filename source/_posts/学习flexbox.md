@@ -3,8 +3,9 @@ layout: post
 title: 学习Flexbox
 date: 2022-01-04 21:28 +0800
 toc: true
-tags: 背
-categories: CSS
+tags: 
+  - CSS
+  - 背
 ---
 Flexbox is a one-dimensional layout method for arranging items in rows or columns.
 

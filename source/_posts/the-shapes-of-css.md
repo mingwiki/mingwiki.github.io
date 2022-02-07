@@ -3,8 +3,9 @@ layout: post
 title: The Shapes of CSS
 date: 2022-01-04 21:25 +0800
 toc: true
-tags: CSS画图
-categories: CSS
+tags:
+  - CSS
+  - CSS画图
 ---
 Square Shape
 ```css
