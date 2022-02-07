@@ -4,8 +4,8 @@ navname: Coding Journal
 # navigatior items
 nav:
   Posts: /archives
-  Categories: /category
-  Tags: /tag
+  Categories: /categories
+  Tags: /tags
   About: /about
 
 # favicon
@@ -15,7 +15,7 @@ favicon: images/wiki.ico
 nickname: 付明
 
 ### this variable is MarkDown form.
-description: 程序员(Javascript/Vue/NodeJS)
+description: 程序员 (Javascript / Vue / NodeJS)
 avatar: images/wiki.png
 
 # main menu navigation
