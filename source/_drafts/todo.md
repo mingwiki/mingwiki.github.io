@@ -4,7 +4,7 @@ tags:
   - todo
 ---
 ## 参考资料
-- [ ] chrome developer tools
+
 - [ ] curl 命令整理
 - [ ] 响应与请求
 - [ ] tcp/ip
@@ -16,8 +16,6 @@ tags:
 - [ ] bootstap4
 - [ ] Scss Sass
 - [ ] 写简历 做一个建立网页
-- [ ] dribbble leetcode to homepage
-- [ ] naizi.fun/zed.ink full-powered
 - [ ] css tricks guides flexbox jquery
 - [ ] emmet
 - [ ] markdown to html
@@ -30,9 +28,16 @@ tags:
 - [ ] localstorage
 - [ ] cookie
 - [ ] onerror
-- [ ] HAproxy
-- [ ] kms
-- [ ] frp
 - [ ] eslint
 - [ ] webpack
-- [ ]  
+- [ ] Day.js
+- [ ] qs
+- [ ] js-cookie
+- [ ] flv.js
+- [ ] vConsole
+- [ ] Animate.css
+- [ ] anime.js
+- [ ] lodash.js
+- [ ] mescroll.js
+- [ ] Chart.js
+- [ ] 
