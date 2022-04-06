@@ -35,9 +35,31 @@ tags:
 - [ ] js-cookie
 - [ ] flv.js
 - [ ] vConsole
+- [ ] typed.js
 - [ ] Animate.css
 - [ ] anime.js
 - [ ] lodash.js
 - [ ] mescroll.js
-- [ ] Chart.js
-- [ ] 
+- [ ] eChart.js
+- [ ] reportWebVitals 
+- [ ] pug
+- [ ] ejs
+- [ ] jest
+- [ ] Mocha
+- [ ] jUnit
+- [ ] JMeter
+- [ ] babel
+- [ ] Redux
+- [ ] Next.js
+- [ ] React Native
+- [ ] LeetCode
+- [ ] 手写Promise Ajax
+- [ ] 手写react vue.js
+- [ ] Mock.j
+- [ ] 跨域
+- [ ] flex
+- [ ] grid
+- [ ] 响应式设计
+- [ ] Sass Scss less
+- [ ] Gatsby
+- [ ] Blitz
