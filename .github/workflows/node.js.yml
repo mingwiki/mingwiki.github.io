@@ -1,25 +1,38 @@
-name: Build and Deploy
+name: Pages
+
 on:
   push:
     branches:
-      - master
+      - master  # default branch
   pull_request:
     branches:
-      - master
+      - master  # default branch
 jobs:
-  build-and-deploy:
-    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
+  pages:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v3
-
-      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
-        run: |
-          npm install
-          hexo d -g
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.3.0
+      - uses: actions/checkout@v2
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v2
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: public # The folder the action should deploy.
+          node-version: '16'
+      - name: Cache NPM dependencies
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
+      - name: Install Theme
+        run: |
+          mkdir mkdir themes
+          git clone https://github.com/mingwiki/hexo-theme-Chic.git themes/Chic
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          publish_dir: ./public
