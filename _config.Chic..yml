@@ -1,5 +1,5 @@
 # Header
-navname: Coding Journal
+navname: Coding Journals
 
 # navigatior items
 nav:
@@ -25,9 +25,9 @@ avatar: images/wiki.png
 links:
   Blog: /archives
   # Category:
-  # Tags: 
+  # Tags:
   # Link:
-  # Resume:
+  Resume: https://zed.ink/cv/
   # Publish:
   # Trophy:
   # Gallery:
@@ -39,7 +39,7 @@ links:
   # Twitter:
   # Skype:
   # CodeSandBox:
-  CodePen: https://codepen.io/mingwiki
+  # CodePen: https://codepen.io/mingwiki
   # Sketch:
   # Gitlab:
   # Dribbble:
@@ -67,7 +67,7 @@ post_copyright_enable: true
 
 post_copyright_author_enable: true
 post_copyright_permalink_enable: true
-post_copyright_license_enable: false 
+post_copyright_license_enable: false
 post_copyright_license_text: Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE
 post_copyright_slogan_enable: false
 post_copyright_slogan_text: Press Any Key to Continue…
@@ -94,7 +94,6 @@ scripts:
   - ./js/tocbot.min.js
     # tscanlin/tocbot: Build a table of contents from headings in an HTML document.
     # https://github.com/tscanlin/tocbot
-
 
 # plugin functions
 ## Mathjax: Math Formula Support
