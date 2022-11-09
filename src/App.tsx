@@ -1,4 +1,4 @@
-import { FormEvent, useEffect, useRef, useState } from "react";
+import { FormEvent, ReactNode, useEffect, useRef, useState } from "react";
 import "./App.scss";
 
 function App() {
@@ -112,7 +112,7 @@ function App() {
       />
       <div>
         {searchValueRef.current &&
-          suggestions.map((i, idx) => <div key={idx}>{i}</div>)}
+          suggestions.map((i, idx) => <div key={idx}>{i as ReactNode}</div>)}
       </div>
     </div>
   );
