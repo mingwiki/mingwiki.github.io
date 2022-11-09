@@ -1,0 +1,25 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  input {
+    min-height: 10rem;
+    width: 100%;
+    text-align: center;
+    font-size: 10rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
