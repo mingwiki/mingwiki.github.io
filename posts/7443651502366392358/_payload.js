@@ -1,0 +1,1 @@
+export default {data:{"$farticle.7443651502366392358":{title:"前端转销售是什么体验？",content:null,author:"魔术师卡颂",url:"https:\u002F\u002Fjuejin.cn\u002Fpost\u002F7443651502366392358"}},prerenderedAt:1733321434146}

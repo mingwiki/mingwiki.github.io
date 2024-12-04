@@ -1,0 +1,1 @@
+export default {data:{"$farticle.7443305419727339535":{title:"爷爷的奇幻魔法：代码世界的神秘咒语",content:null,author:"沐浴在曙光下的贰货道士",url:"https:\u002F\u002Fjuejin.cn\u002Fpost\u002F7443305419727339535"}},prerenderedAt:1733321435969}

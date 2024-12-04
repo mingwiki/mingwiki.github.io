@@ -1,0 +1,1 @@
+export default {data:{"$farticle.7443347036974415887":{title:"面试官：三年前端开发不知道小数精度误差，你难道没有过实际的业务开发经验？我：😭",content:null,author:"许泽川",url:"https:\u002F\u002Fjuejin.cn\u002Fpost\u002F7443347036974415887"}},prerenderedAt:1733321435687}

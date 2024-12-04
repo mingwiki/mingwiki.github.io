@@ -1,0 +1,1 @@
+export default {data:{"$farticle.7443794390306275343":{title:"尤雨溪 VoidZero 要做什么？目前 JS 工具链有哪些问题？",content:null,author:"前端双越老师",url:"https:\u002F\u002Fjuejin.cn\u002Fpost\u002F7443794390306275343"}},prerenderedAt:1733321434990}

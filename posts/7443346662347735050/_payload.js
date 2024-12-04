@@ -1,0 +1,1 @@
+export default {data:{"$farticle.7443346662347735050":{title:"CSS 如何模拟“真实的”进度条？",content:null,author:"XboxYan",url:"https:\u002F\u002Fjuejin.cn\u002Fpost\u002F7443346662347735050"}},prerenderedAt:1733321434834}
