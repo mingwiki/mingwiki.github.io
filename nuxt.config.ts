@@ -5,8 +5,8 @@ export default defineNuxtConfig({
     'normalize.css'
   ],
   appConfig: {
-    title: '备案审核专用网站模板',
-    description: '快速生成一个符合备案审核条件的静态网站',
-    beian: '粤ICP备00000000号'
+    title: 'zed.ink在线',
+    description: '一个不为人知的个人学习小站',
+    beian: '鄂ICP备2024063391号-2'
   }
 })
